@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="119px" height="95px" viewBox="0 0 119 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>AE</title>
+    <defs>
+        <linearGradient x1="95.3032314%" y1="27.4027258%" x2="3.75367194%" y2="72.5972742%" id="linearGradient-1">
+            <stop stop-color="#000193" offset="0%"></stop>
+            <stop stop-color="#00015A" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-8" transform="translate(-221.000000, -165.000000)">
+            <g id="AE" transform="translate(221.000000, 165.000000)">
+                <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="15" width="119" height="80" rx="10"></rect>
+                <path d="M17.7968849,0 L55.2072501,0 C56.4308941,6.63398659e-16 57.6120584,0.448714281 58.5270585,1.26116703 L74,15 L74,15 L7.07191846,15 L7.87848622,8.72510123 C8.51975607,3.73617958 12.7669181,4.47670359e-15 17.7968849,0 Z" id="Rectangle" fill="#9999FE"></path>
+                <text id="Ae" font-family="PingFangTC-Semibold, PingFang TC" font-size="50" font-weight="500" letter-spacing="-0.950197" fill="#9999FE">
+                    <tspan x="29" y="73">Ae</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

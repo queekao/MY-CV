@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>affinity designer</title>
+    <defs>
+        <linearGradient x1="93.930914%" y1="5.22860077%" x2="16.5572932%" y2="99.5427503%" id="linearGradient-1">
+            <stop stop-color="#5DD7FB" offset="0%"></stop>
+            <stop stop-color="#38BDFA" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="119" height="119" rx="20"></rect>
+        <linearGradient x1="40.8696034%" y1="26.0465069%" x2="62.8184586%" y2="47.7512375%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FDFDFE" offset="0%"></stop>
+            <stop stop-color="#044E81" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-8" transform="translate(-259.000000, -100.000000)">
+            <g id="affinity-designer" transform="translate(260.000000, 101.000000)">
+                <g id="Path-3">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    <path d="M41,-0.636393573 C33.2057904,-0.636393573 0,-5.26633935 0,18.5166631 C0,34.3719981 0,54.5331104 0,79" fill="#1C72BE" mask="url(#mask-3)"></path>
+                </g>
+                <g id="Group" transform="translate(31.270077, 0.031070)" fill="#044E81" fill-rule="nonzero">
+                    <path d="M39.4204654,0.280896801 C41.0652046,0.932919944 41.8699599,2.79481366 41.2179368,4.43955281 C41.1764822,4.5441226 41.1295487,4.64643642 41.0773314,4.74606909 L7.29819104,69.1979188 L7.29819104,69.1979188 L29.3076606,113.648359 C30.1761156,115.402295 29.4582912,117.528163 27.7043549,118.396618 C27.7006684,118.398444 27.6969787,118.400263 27.6932859,118.402075 C25.9233144,119.270808 23.783789,118.556068 22.8913658,116.797922 L1.08297641,73.8336253 C-0.392018841,70.927765 -0.358578076,67.4854576 1.17259222,64.6088011 L34.4382947,2.11150794 C35.3908293,0.321951887 37.5358789,-0.466208907 39.4204654,0.280896801 Z" id="Path"></path>
+                    <path d="M87.7299228,69.4689302 C87.7299228,71.4019268 86.1629195,72.9689302 84.2299228,72.9689302 L6.22992283,72.9689302 C4.2969262,72.9689302 2.72992283,71.4019268 2.72992283,69.4689302 C2.72992283,67.5359336 4.2969262,65.9689302 6.22992283,65.9689302 L84.2299228,65.9689302 C86.1629195,65.9689302 87.7299228,67.5359336 87.7299228,69.4689302 Z" id="Line"></path>
+                    <polygon id="Line-2" points="17.7339663 38.1056979 24.0409779 35.0689886 40.0776873 68.3760003 33.7706756 71.4127096"></polygon>
+                </g>
+                <line x1="40" y1="0" x2="0" y2="79" id="Path-2" stroke="url(#linearGradient-4)"></line>
+            </g>
+        </g>
+    </g>
+</svg>
