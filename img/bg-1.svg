@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1744px" height="656px" viewBox="0 0 1744 656" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="2107px" height="565px" viewBox="0 0 2107 565" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Rectangle</title>
     <defs>
-        <path d="M0,-19 L1744,-19 L1744,543 C1624.5037,493.08275 1450.22621,459.385607 1221.16751,441.908573 C972.251802,422.916462 872,272 627.170573,272 C349.422425,272 140.365567,362.333333 0,543 L0,-19 Z" id="path-1"></path>
-        <filter x="-1.5%" y="-2.9%" width="102.9%" height="109.1%" filterUnits="objectBoundingBox" id="filter-2">
+        <path d="M0,-19 L2107,-19 L2107,543 C1962.63148,493.08275 1752.07948,459.385607 1475.34401,441.908573 C1174.61843,422.916462 1053.5,272 757.711237,272 C422.151978,272 169.581566,362.333333 0,543 L0,-19 Z" id="path-1"></path>
+        <filter x="-1.2%" y="-2.9%" width="102.4%" height="109.1%" filterUnits="objectBoundingBox" id="filter-2">
             <feOffset dx="0" dy="9" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
@@ -11,8 +11,8 @@
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Desktop-HD">
-            <path d="M0,81 L1744,81 L1744,643 C1531.71121,565.519458 1357.43371,531.822316 1221.16751,541.908573 C971.861831,560.361876 776.964812,377.488721 628.566667,377.488721 C350.818519,377.488721 141.296296,465.992481 0,643 L0,81 Z" id="Rectangle-Copy-2" fill="#F441A5"></path>
-            <path d="M0,-19 L1744,-19 L1744,613 C1531.71121,525.868857 1357.43371,487.974561 1221.16751,499.317115 C971.861831,520.068872 776.964812,314.417921 628.566667,314.417921 C350.818519,314.417921 141.296296,413.945281 0,613 L0,-19 Z" id="Rectangle-Copy" fill-opacity="0.5" fill="#03A9F4"></path>
+            <path d="M0,81 L2107,81 L2107,643 C1850.52495,565.519458 1639.97295,531.822316 1475.34401,541.908573 C1174.14729,560.361876 938.683979,377.488721 759.397917,377.488721 C423.838657,377.488721 170.706019,465.992481 0,643 L0,81 Z" id="Rectangle-Copy-2" fill="#F441A5"></path>
+            <path d="M0,-19 L2107,-19 L2107,613 C1850.52495,525.868857 1639.97295,487.974561 1475.34401,499.317115 C1174.14729,520.068872 938.683979,314.417921 759.397917,314.417921 C423.838657,314.417921 170.706019,413.945281 0,613 L0,-19 Z" id="Rectangle-Copy" fill-opacity="0.5" fill="#03A9F4"></path>
             <g id="Rectangle">
                 <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
                 <use fill="#B27189" fill-rule="evenodd" xlink:href="#path-1"></use>
