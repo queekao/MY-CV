@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="76px" height="76px" viewBox="0 0 76 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Buttons/Like</title>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Like</title>
     <defs>
-        <circle id="path-1" cx="20" cy="20" r="20"></circle>
-        <filter x="-88.8%" y="-53.8%" width="277.5%" height="277.5%" filterUnits="objectBoundingBox" id="filter-2">
-            <feOffset dx="0" dy="14" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="9.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.145405376 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
+        <linearGradient x1="50%" y1="57.331564%" x2="50%" y2="126.514128%" id="linearGradient-1">
+            <stop stop-color="#E5E5E5" offset="0%"></stop>
+            <stop stop-color="#A5A5A5" offset="100%"></stop>
+        </linearGradient>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="iPhone-8" transform="translate(-443.000000, -157.000000)">
-            <g id="Group" transform="translate(451.000000, 165.000000)">
-                <g id="Like-Button" transform="translate(20.000000, 20.000000) rotate(-45.000000) translate(-20.000000, -20.000000) ">
-                    <g id="Oval">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+        <g id="Artboard" transform="translate(-43.000000, -55.000000)">
+            <g id="Like" transform="translate(43.715729, 55.215729)">
+                <g id="Like-Button" transform="translate(29.284271, 29.284271) rotate(-45.000000) translate(-29.284271, -29.284271) translate(8.930718, 8.223611)">
+                    <g id="path-1-link" transform="translate(0.707107, 2.121320)" fill="url(#linearGradient-1)">
+                        <circle id="path-1" cx="20" cy="20" r="20"></circle>
                     </g>
-                    <g id="like" transform="translate(11.000000, 12.000000)" fill="#FE283D" fill-rule="nonzero">
+                    <g id="Oval" transform="translate(0.000000, 0.000000)">
+                        <g id="path-1-link" fill="#000000" fill-rule="nonzero">
+                            <circle id="path-1" cx="20" cy="20" r="20"></circle>
+                        </g>
+                        <g id="path-1-link" fill="#FFFFFF">
+                            <circle id="path-1" cx="20" cy="20" r="20"></circle>
+                        </g>
+                    </g>
+                    <g id="like" transform="translate(11.000000, 13.414214)" fill="#FE283D" fill-rule="nonzero">
                         <path d="M8.94617893,2.82643478 C9.67267339,1.16278261 11.3323064,0.000347826087 13.2626649,0.000347826087 C15.8629967,0.000347826087 17.735754,2.14956522 17.9711986,4.71095652 C17.9711986,4.71095652 18.0982812,5.34678261 17.8185556,6.49147826 C17.437668,8.05043478 16.5423302,9.43547826 15.3352262,10.4925217 L8.94617893,16 L2.66477385,10.4921739 C1.45766981,9.43547826 0.562331981,8.05008696 0.181444397,6.49113043 C-0.0982811733,5.34643478 0.0288013573,4.7106087 0.0288013573,4.7106087 C0.264246046,2.14921739 2.13700334,0 4.73733512,0 C6.66805356,0 8.21968446,1.16278261 8.94617893,2.82643478 Z" id="Path"></path>
                     </g>
                 </g>
