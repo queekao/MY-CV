@@ -729,18 +729,18 @@
 /* skill */
 .skill{
     padding-top: 160px;
-    padding-bottom: 850px;
+    padding-bottom: 750px;
 }
 @media(max-width: 992px){
     .skill{
         padding-top: 160px;
-        padding-bottom: 1000px;
+        padding-bottom: 850px;
     }
 }
 @media(max-width: 766px){
     .skill{
         padding-top: 0px;
-        padding-bottom: 350px;
+        padding-bottom: 200px;
     }
 }
 
