@@ -18,14 +18,13 @@
  	<!-- start bg -->
  	<div class="bg">
  		<video class="bg-video" autoplay loop muted>
- 			<source src="universe 2.mp4" type="video/mp4">
+ 			<source src="img/universe 2.mp4" type="video/mp4">
  		</video>
  	</div>
  	<!-- End bg -->
  	<!-- start header -->
  	<header class="header js-header">
- 		<div class="mylogo js-header">
- 			<img class="img" src="img/QUEE.gif">
+ 		<div id="logo" class="mylogo js-header">
  		</div>
  		<div class="container">
  			<div class="navbar navbar--collapse u-clearfix">
@@ -37,11 +36,11 @@
  					<i class="icon fab fa-behance-square"></i>
  					</a>
  					<a href="https://www.instagram.com/queekao/" target="_blank" class="icon-btn">
- 					   <i class="icon fab fa-instagram"></i>
+ 					   <i class="icon fab fa-instagram-square"></i>
  					</a>
  					<a class="text text-icon" href="https://queekao.github.io/MY-CV/CV%E4%B8%AD%E6%96%87%E7%89%88.html#!">中文版</a>
  				</div>
- 				<div class="nav navbar__nav">
+ 				<div class="nav navbar__nav u-clearfix">
  					<a href="#popup-overlay" class="menu-toggle" onclick="toggle()">
  						  <span></span>
  						  <span></span>
@@ -51,15 +50,15 @@
  						 <div class="container">
  						 	<div class="popup-menu__main u-clearfix">
  								<a href="#!" class="popup-menu__close" onclick="toggle()">
- 								<span></span>
- 								<span></span>
+ 							    <span></span>
+ 							    <span></span>
  								</a>
  							</div>
- 				 <ul class="popup-meun__catalog">
+ 							 <ul class="popup-menu__catalog u-clearfix">
                             	<li>
-                            	  <a href="https://queekao.github.io/MY-CV/about.html" class="popup-menu__item" onclick="toggle()">ABOUT</a>
-                            	</li>
-                            	<li>
+                            	  <a href="#about" class="popup-menu__item" onclick="toggle()">NAVIGATION</a>
+                            	</li
+                            	><li>
                             	  <a href="#ability" class="popup-menu__item" onclick="toggle()">ABILITY</a>
                             	</li>
                             	<li>
@@ -69,7 +68,7 @@
                             	  <a href="#portfolio" class="popup-menu__item" onclick="toggle()">PORTFOLIO</a>
                             	</li>
                             	<li>
-                            	  <a href="#contact" class="popup-menu__item" onclick="toggle()">CONTACT ME</a>
+                            	  <a href="#contact" class="popup-menu__item" onclick="toggle()">CONTACT</a>
                             	</li>
                              </ul> 
  						 </div>   
@@ -85,15 +84,15 @@
  		<!-- start about -->
  		<div class="hero">
  			<div class="hero__bg">
- 				<div class="svg" id="svg"></div>
  			</div>
+ 			<img class="graphic_013" data-stellar-ratio="1.5" src="img/parallax_graphic/me.svg">
  			<img class="graphic_001" data-stellar-ratio="1.5" src="img/parallax_graphic/Like.svg">
  			<img class="graphic_002" data-stellar-ratio="1.5" src="img/parallax_graphic/Shape 1拷貝.svg">
  			<div class="container">
  				<div class="hero__content wow bounceInRight">
  					<h1 class="hero__heading">HELLO<br>I'M QUEE</h1><p style="font-size: 40px">&#128512;</p>
  					<h3 class="hero__description">Your first visual web design choice</h3>
- 					<a href="mailTo:xeriok925999@gmail.com"class="btn btn--primary btn--lg">LET'S TALK</a>
+ 					<a href="mailTo:xeriok925999@gmail.com"class="btn btn--primary btn--lg">MY STORY</a>
  				</div>
  				
  			</div>
@@ -101,7 +100,6 @@
  		<!-- End about -->
  		<!-- Start quote -->
  		<div id="about" class="quote bg-color-white lean-bg--top">
- 			<img class="graphic_003" src="img/parallax_graphic/Unlike.svg" data-stellar-ratio="1.5">
  			<div class="container">
  			  <div class="row">
  			  	<div class="col-sm-6 col-sm-push-3">
@@ -109,11 +107,8 @@
  					<div class="quote__icon">
  						<i class="fas fa-angle-double-down"></i>
  					</div>
- 						
  					</div>
- 					
- 					<p class="quote__text">Hello,welcome to my website. This website is bulit up with pink color with a pink universe background. The main thing that I wanna transmit is "me". I am a person who had a lot of opinion, but sometime I can't transmit it very well. With this universe background you can actually notice it's growing slowly that represent my mind. Growing slowly and go crazy immediately.If you need a creative person I am here for you I am also a talktive person who can accept different opinions from others.If you wanna understand more about me you can click the burger icon on the navbar and click "about".
- 					I will tell you my story. And if you wanna watch my portfolio you can click "portfolio" or scrolling down.Besides my website all have RWD you can browse on moblie phone as well.Hope you enjoy the journey of my website.
+ 					<p class="quote__text">Hello, Welcome to my website. You can click "MY STORY" button to watch my introduction if you wanna watch my portfolio you can click "PORTFOLIO". I put my UI design in portfolio list and the design conception videos. If you wanna watch motion graphic you can click the "Youtube Icon" or For photo compostions and vector works you can click "Behance Icon". Hoping you enjoy the journey of my website.
  					</p>
  					<div class="quote__name"><span>Queekao</span>-from Taipei Taiwan</div>
  				  </div>
@@ -121,7 +116,7 @@
  			  </div>	
  				
  			</div>
- 	
+ 		
  		<!-- End quote -->
  		<!-- start skill -->
  		<div id="ability" class="skill bg-color-white">
@@ -137,9 +132,9 @@
  							<div class="skill-card__inner">
  							  <div class="skill-card__title">PHOTO COMPOSITION</div>
  							   <p class="skill-card__text">
- 							   	Creating the different type of photo composition and the photo editing,
- 							   	With Adjusting the light and the shadow to make the photos 
- 							   	be more plausible.
+ 							   	Creating different type of photo composition,
+ 							   	With adjusting lights make the photo 
+ 							   	be more plausible
  							   </p>
  							</div>
  							<div id="skill2" class="skill-card__icon">
@@ -151,10 +146,7 @@
  							<div class="skill-card__inner">
  							  <div class="skill-card__title">WEB DESIGN</div>
  							   <p class="skill-card__text">
- 							   	Familiar with Figma, Sketch and Invison. And Capable of creating
- 							   	the different type of the dimensional presentation. Like wireframe
- 							   	prototyping and mockup, Also familiar with different Ul element 
- 							   	such as dialogues imform, Snacker etc...
+ 							   	Familiar with Figma, Sketch, User Flow, Wireframing, Prototyping, Mobile App Design, Landing Pages
  							   </p>	
  							</div>
  							<div id="skill4" class="skill-card__icon">
@@ -168,8 +160,8 @@
  							<div class="skill-card__inner">
  							  <div class="skill-card__title">VECTOR ILLUSTRAION</div>
  							   <p class="skill-card__text">
- 							   	Drawing, vector art and isometric design and so 
- 							   	much more, Clicking the bottom to check out the works
+ 							   	Drawing, Vector Art, Isometric Design, Icon Set , 
+ 							   	Character Design, Logo Conceptions, Sketches
  							   </p>	
  							</div>
  							<div id="skill1" class="skill-card__icon">
@@ -181,7 +173,7 @@
  							<div class="skill-card__inner">
  							  <div class="skill-card__title">MOTION GRAPHIC</div>
  							   <p class="skill-card__text">
- 							   	2D animation, 3D animation,and some visual effective motion. Also familiar with the web
+ 							   	2D animation , 3D animation , And some visual effective motion. Also familiar with the UI
  							   	motion.
  							   </p>	
  							</div>
@@ -196,9 +188,8 @@
  							<div class="skill-card__inner">
  							  <div class="skill-card__title">MUSICAL COMPOSTION</div>
  							   <p class="skill-card__text">
- 							    Using different beat and pad or some melody to make
- 							    a sick deephouse music or other different type, Combinating with motion graphic and you can check 
- 							    it in my motion graphic videos. 
+ 							    Creating the different types of music for motion graphic
+ 							    or you can listen in my porfolio. 
  							   </p>	
  							</div>
  							<div id="skill5" class="skill-card__icon">
@@ -210,7 +201,7 @@
  							<div class="skill-card__inner">
  							  <div class="skill-card__title">FRONT DEVELOPE</div>
  							   <p class="skill-card__text">
- 							    Familiar with html, Css and some Javascript with Jquery.Also Responsive website design. 
+ 							    Familiar with Html, Css and some Javascript with Jquery .Also Responsive website design. 
  							   </p>	
  							</div>
  							<div id="skill6" class="skill-card__icon">
@@ -237,8 +228,8 @@
  						 	<h4 class="experience__descirption">2020</h4>
  						 	<p class="timeline-card__text">
  						 		Graduated from pingtong university, And started to
- 						 		get some freeland job for drawing or designing some stuff.
- 						 		Until May 20th started to take military service.
+ 						 		get some freelancer jobs for drawing or designing some stuff.
+ 						 		Until May 20th started to take military services.
  						    </p>
  						 </div>	
  						</div>
@@ -247,7 +238,7 @@
  						 	<h4 class="experience__descirption">2021</h4>
  						 	<p class="timeline-card__text">
  						 		Started the digtal marketing internship in Aromate industry, working with some social media posts, SEO article and GA
- 						 		. Also for some FB ads.
+ 						 		. Also for some FB Ads.
  						 	</p>
  						 </div>	
  						</div>
@@ -260,169 +251,147 @@
  		<!-- end experience -->
  		<!-- start Portfolio -->
  		<div id="portfolio" class="Portfolio bg-color-white lean-bg--top lean-bg--bottom">
- 			<img class="graphic_007" data-stellar-ratio="1.5" src="img/parallax_graphic/cir-pink-sm.svg">
  			<img class="graphic_008" data-stellar-ratio="1.5"src="img/parallax_graphic/Shape 3拷貝.svg">
  			<img class="graphic_009" data-stellar-ratio="1.5" src="img/parallax_graphic/box.svg">
  			<img class="graphic_010" data-stellar-ratio="1.5" src="img/parallax_graphic/randomshpae.svg">
  			<img class="graphic_011" data-stellar-ratio="1.5" src="img/parallax_graphic/ball.svg">
  			<div class="container">
- 			  <h2 class="subtitle u-text-center wow bounceInDown">Portfolio </h2>
+ 			  <h2 class="subtitle u-text-center wow bounceInDown">PORTFOLIO</h2>
  			  <div class="portfolio-list">
  			  	<div class="portfolio-item wow fadeInUp">
-			  		<div class="row">
-  			  			<div class="col-sm-6 col-sm-push-5">
+ 			  		<div class="portfolio-container">
+ 			  		 <div class="row">
+ 			  			<div class="col-sm-6 col-sm-push-1">
  			  				<div class="imgbox">
- 			  					<a href="img/T-shirt.png" data-fancybox ="group">
+ 			  				   <a href="img/moblie phone.svg" data-fancybox="group">
  			  						<div class="imgbox__inner imgbox__inner--4-3">
- 			  					 <div class="image" style="background-image: url(img/T-shirt.png);"></div>
+ 			  					 <img class="image" src="img/moblie phone.svg">
+ 			  					</div>
+ 			  				  </a>
+ 			  				</div>
+ 			  			</div>
+ 			  			<div class="col-sm-5 col-sm-push-1">
+ 			  			  <div class="portfolio-item__text portfolio-item__text--left">
+ 			  					<h3 class="portfolio-item__title">Moblie App For Online Bank</h3>
+ 			  					<p class="portfolio-item__intro">
+ 			  						The whole new bank app conceptions to make users more convenient.
+ 			  					</p>
+ 			  					<a class="text-btn text-btn--primary text-btn--lg" href="https://youtu.be/EpoNTty3i4U" target="_blank">Watch Video</a>		
+ 			  			  </div>
+ 			  			</div>
+ 			  		 </div>
+ 			  		</div>
+ 			  	</div>
+ 			  	
+ 			  	<div class="portfolio-item wow fadeInUp">
+ 			  	 <div class="portfolio-container">
+ 			  	 	<div class="row">
+ 			  			<div class="col-sm-6 col-sm-push-6">
+ 			  				<div class="imgbox">
+ 			  					<a href="img/ramen.svg" data-fancybox="group">
+ 			  						<div class="imgbox__inner imgbox__inner--4-3">
+ 			  					 <img class="image" src="img/ramen.svg">
  			  					</div>
  			  					</a>
  			  				</div>
  			  			</div>
- 			  			<div class="col-sm-4 col-sm-pull-5">
- 			  			  <div class="portfolio-item__text portfolio-item__text--right">
- 			  					<h3 class="portfolio-item__title portfolio-item__title--left">This is my T-shirt design</h3>
+ 			  			<div class="col-sm-5 col-sm-pull-4">
+ 			  			  <div class="portfolio-item__text">
+ 			  					<h3 class="portfolio-item__title">Ramen's Website plan</h3>
  			  					<p class="portfolio-item__intro">
- 			  						During my first internship I designed a T-shirt for the team,and you can check the other drawing desigh by clicking the button.
+ 			  						Simple and Clear visual balance is always the key to bring out the vibes.
  			  					</p>
- 			  					<a class="text-btn text-btn--primary text-btn--lg" href="https://www.behance.net/azxcvbnm51067c" target="_blank">Watch more</a>		
+ 			  					<a class="text-btn text-btn--primary text-btn--lg" href="https://www.youtube.com/watch?v=1qc4M36xF9w" target="_blank">Watch Video</a>		
  			  			  </div>
  			  			</div>
  			  		</div>
+ 			  	 </div>	
  			  	</div>
  			  	<div class="portfolio-item wow fadeInUp">
- 			  		<div class="row">
+ 			  		<div class="portfolio-container">
+ 			  			<div class="row">
  			  			<div class="col-sm-6 col-sm-push-1">
  			  				<div class="imgbox">
- 			  				  <a href="img/web.png" data-fancybox="group">
+ 			  				  <a href="img/Orange.svg" data-fancybox="group">
  			  				  	<div class="imgbox__inner imgbox__inner--4-3">
- 			  					 <div class="image" style="background-image: url(img/web.png);"></div>
+ 			  					 <div class="image" style="background-image: url(img/Orange.svg);"></div>
  			  					</div>
  			  				  </a>	
  			  				</div>
  			  			</div>
- 			  			<div class="col-sm-4 col-sm-push-1">
+ 			  			<div class="col-sm-5 col-sm-push-1">
  			  			  <div class="portfolio-item__text">
- 			  					<h3 class="portfolio-item__title portfolio-item__title--right">This is my web design</h3>
+ 			  					<h3 class="portfolio-item__title portfolio-item__title--right">Freelancer's
+ 			  					<br> Platform</h3>
  			  					<p class="portfolio-item__intro">
- 			  					  Start with a freelancer Platform and marketing Platform as the initial idea.From A wireframe to the mockup and finally some simple prototype. 
-									And with the basic membership, our clients will enjoy the free account in order to lead them to pay for it.There is a very convenient solution
-									in the premium plan, you can Check it in the Figma.
+ 			  					  A different landing pages idea for freelancer managing easily.
  			  					</p>
- 			  					<a class="text-btn text-btn--primary text-btn--lg" href="https://www.figma.com/file/mAwZH6rI8zrIqHUHUt6aVX/landing-page?node-id=0%3A1" target="_blank">Watch more</a>		
+ 			  					<a class="text-btn text-btn--primary text-btn--lg" href="https://www.youtube.com/watch?v=I1ULIPwkMCU&t=55s" target="_blank">Watch video</a>		
  			  			  </div>
  			  			</div>
  			  		</div>
+ 			  	  </div>
  			  	</div>
  			  	<div class="portfolio-item wow fadeInUp">
- 			  		<div class="row">
- 			  			<div class="col-sm-6 col-sm-push-5">
+ 			  		<div class="portfolio-container">
+ 			  		  <div class="row">
+ 			  			<div class="col-sm-6 col-sm-push-6">
  			  				<div class="imgbox">
- 			  					<div class="imgbox__inner imgbox__inner--4-3">
- 			  					 <iframe class="image" width="560" height="315" src="https://www.youtube.com/embed/zhKCWMFHkkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 			  					 <a data-fancybox="group" href="img/3d.svg">
+ 			  				  	<div class="imgbox__inner imgbox__inner--4-3">
+ 			  					 <div class="image" style="background-image: url('img/3d.svg');"></div>
  			  					</div>
- 			  					
+ 			  				  </a>		
  			  				</div>
  			  			</div>
- 			  			<div class="col-sm-4 col-sm-pull-6">
+ 			  			<div class="col-sm-5 col-sm-pull-4">
  			  			  <div class="portfolio-item__text">
- 			  					<h3 class="portfolio-item__title portfolio-item__title--right">This is my 3D motion grahpic</h3>
+ 			  					<h3 class="portfolio-item__title portfolio-item__title--right">Take A Break<br> With My MG</h3>
  			  					<p class="portfolio-item__intro">
- 			  						Check my motion graphic on my Youtube I create some 3D motion graphic and some visual effect I promise you will like it, you can watch it on my IG or behance as well.
+ 			  						 The visual impact is always a design language to transmit our opinions.
  			  					</p>
- 			  					<a class="text-btn text-btn--primary text-btn--lg" href="https://www.youtube.com/channel/UC-w4wbIJtSBX5ulyUo6QiFg" target="_blank" target="_blank">Watch more</a>		
+ 			  					<a class="text-btn text-btn--primary text-btn--lg" href="https://www.youtube.com/watch?v=zhKCWMFHkkM" target="_blank" target="_blank">Watch video</a>		
  			  			  </div>
  			  			</div>
+ 			  		 </div>
  			  		</div>
  			  	</div>
  			  	<div class="portfolio-item wow fadeInUp">
- 			  		<div class="row">
+ 			  		<div class="portfolio-container">
+ 			  		  <div class="row">
  			  			<div class="col-sm-6 col-sm-push-1">
  			  				<div class="imgbox">
- 			  				   <a href="img/moblie phone.png" data-fancybox="group">
+ 			  					<a href="img/guideline.svg" data-fancybox="group">
  			  						<div class="imgbox__inner imgbox__inner--4-3">
- 			  					 <img class="image" src="img/moblie phone.png">
+ 			  					 <img class="image" src="img/guideline.svg">
  			  					</div>
- 			  				  </a>
- 			  					
+ 			  					</a>
  			  				</div>
  			  			</div>
- 			  			<div class="col-sm-4 col-sm-push-2">
+ 			  			<div class="col-sm-5 col-sm-push-1">
  			  			  <div class="portfolio-item__text portfolio-item__text--left">
- 			  					<h3 class="portfolio-item__title">This is my moblie phone design</h3>
+ 			  					<h3 class="portfolio-item__title">How I Organize My Design?</h3>
  			  					<p class="portfolio-item__intro">
- 			  						Start with a bank
- 			  						as the initial idea.With the 3D logo make the App be more
- 			  						technical.And all the different states that may involve I had already thought about it to make our clients more convenient .You can check the whole project in Figma.
- 			  					</p>
- 			  					<a class="text-btn text-btn--primary text-btn--lg" href="https://www.figma.com/file/Z2r9VqmYbxQ4SkA7HLj395/Mobile-phone-design-credit-card?node-id=0%3A1" target="_blank">Watch more</a>		
- 			  			  </div>
- 			  			</div>
- 			  		</div>
- 			  	</div>
- 			  	<div class="portfolio-item wow fadeInUp">
- 			  		<div class="row">
- 			  			<div class="col-sm-6 col-sm-push-5">
- 			  				<div class="imgbox">
- 			  					<a href="img/fullpage.png" data-fancybox="group">
- 			  						<div class="imgbox__inner imgbox__inner--8-4">
- 			  					 <img class="image" src="img/fullpage.png">
- 			  					</div>
- 			  					</a>
- 			  					
- 			  					
- 			  				</div>
- 			  			</div>
- 			  			<div class="col-sm-4 col-sm-pull-5">
- 			  			  <div class="portfolio-item__text">
- 			  					<h3 class="portfolio-item__title">This is my fullpage coding design</h3>
- 			  					<p class="portfolio-item__intro">
- 			  						This website is a conception from my brother Ramen's restaurant. In order to maintain the whole landing pages be more high quality but at the low price. 
-									I used some simple black and white and some of gold as the primary colors and from rice to ramen lead the users to the end and understand the whole
-									products of our Ramen's shop.You can click to check the whole website on github.
- 			  					</p>
- 			  					<a class="text-btn text-btn--primary text-btn--lg" href="https://queekao.github.io/My-fullpage-design/fullpageweb.html#firstPage" target="_blank">Watch more</a>		
- 			  			  </div>
- 			  			</div>
- 			  		</div>
- 			  	</div>
- 			  	<div class="portfolio-item wow fadeInUp">
- 			  		<div class="row">
- 			  			<div class="col-sm-6 col-sm-push-1">
- 			  				<div class="imgbox">
- 			  					<a href="img/guideline.png" data-fancybox="group">
- 			  						<div class="imgbox__inner imgbox__inner--8-4">
- 			  					 <img class="image" src="img/guideline.png">
- 			  					</div>
- 			  					</a>
- 			  				</div>
- 			  			</div>
- 			  			<div class="col-sm-4 col-sm-push-1">
- 			  			  <div class="portfolio-item__text portfolio-item__text--right">
- 			  					<h3 class="portfolio-item__title">This is my guideline</h3>
- 			  					<p class="portfolio-item__intro">
- 			  						Not for this website
- 			  						It's a conception to make my whole design process to be more logical.
-									Include the different UI elements.
- 			  						you can check it out on my github pages.
+ 			  						Colors between gradient will be good option for color organization.
  			  					</p>
  			  					<a class="text-btn text-btn--primary text-btn--lg" href="https://queekao.github.io/Guideline/guideline.html" target="_blank">Watch more</a>		
  			  			  </div>
  			  			</div>
+ 			  		 </div>
  			  		</div>
+ 			  		
  			  	</div>
  			  	
  			  </div>
  			</div>	
  		</div>
-	
  		<!-- End portfolio -->
  		<!-- start contact -->
  		<div id="contact" class="contact">
  			<img class="graphic_012" data-stellar-ratio="1.0" data-stellar-vertical-offset="15" src="img/parallax_graphic/Shape 4拷貝.svg">
 
  			<div class="container">
- 				<h2 class="subtitle u-text-center color-white wow bounceInDown">Send your Require</h2>
+ 				<h2 class="subtitle u-text-center color-white wow bounceInDown">CONTACT ME 👇</h2>
  				<form action="" class="form wow fadeInUp">
  					<label for="">Name</label>
  					<input type="text" name="">
@@ -458,22 +427,22 @@
  					  <i class="icon fab fa-behance-square" ></i>
  					 </a>
  					 <a href="https://www.instagram.com/queekao/" class="icon-btn wow bounceIn" data-wow-delay="0.8s" target="_blank">
- 					   <i class="icon fab fa-instagram"></i>
+ 					   <i class="icon fab fa-instagram-square"></i>
  					 </a>
  					</div>
  				</div>
  			</div>
  		</div>
  		<!-- End contact -->	
- 	 </section>
+ 	</section>
  	<!-- End main -->
  	<!-- start footer -->
  	<footer class="footer"> 
  		<div class="container">
  			<p class="final-text">
  				<span>The above submit button is just a design.</span>
- 				If you have any question or request,
- 				Please send a develope to my E-mail or we can chat in LINE.
+ 				If you have any questions or requests,
+ 				Please send a E-mail or LINE me.
  				Hopefully we can have a great cooperation!
  			</p>
  		</div>
@@ -497,6 +466,7 @@
      	var blur = document.getElementById('about');
      	about.classList.toggle('active');
      }
+     
 
  </script>
 

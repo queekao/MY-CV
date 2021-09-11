@@ -18,14 +18,13 @@
  	<!-- start bg -->
  	<div class="bg">
  		<video class="bg-video" autoplay loop muted>
- 			<source src="universe 2.mp4" type="video/mp4">
+ 			<source src="img/universe 2.mp4" type="video/mp4">
  		</video>
  	</div>
  	<!-- End bg -->
  	<!-- start header -->
  	<header class="header js-header">
- 		<div class="mylogo js-header">
- 			<img class="img" src="img/QUEE.gif">
+ 		<div id="logo" class="mylogo js-header">
  		</div>
  		<div class="container">
  			<div class="navbar navbar--collapse u-clearfix">
@@ -37,11 +36,11 @@
  					<i class="icon fab fa-behance-square"></i>
  					</a>
  					<a href="https://www.instagram.com/queekao/" target="_blank" class="icon-btn">
- 					   <i class="icon fab fa-instagram"></i>
+ 					   <i class="icon fab fa-instagram-square"></i>
  					</a>
  					<a class="text text-icon" href="https://queekao.github.io/MY-CV/CV.html#!">English</a>
  				</div>
- 				<div class="nav navbar__nav">
+ 				<div class="nav navbar__nav u-clearfix">
  					<a href="#popup-overlay" class="menu-toggle" onclick="toggle()">
  						  <span></span>
  						  <span></span>
@@ -52,12 +51,12 @@
  						 	<div class="popup-menu__main u-clearfix">
  								<a href="#!" class="popup-menu__close" onclick="toggle()">
  								<span></span>
- 								<span></span>
+ 						        <span></span>
  								</a>
  							</div>
- 							 <ul class="popup-meun__catalog">
+ 							 <ul class="popup-menu__catalog u-clearfix">
                             	<li>
-                            	  <a href="https://queekao.github.io/MY-CV/about.html" class="popup-menu__item" onclick="toggle()">關於我</a>
+                            	  <a href="#about" class="popup-menu__item" onclick="toggle()">網站導覽</a>
                             	</li>
                             	<li>
                             	  <a href="#ability" class="popup-menu__item" onclick="toggle()">技能篇</a>
@@ -87,21 +86,21 @@
  			<div class="hero__bg">
  				<div class="svg" id="svg"></div>
  			</div>
+ 			<img class="graphic_013" data-stellar-ratio="1.5" src="img/parallax_graphic/me.svg">
  			<img class="graphic_001" data-stellar-ratio="1.5" src="img/parallax_graphic/Like.svg">
  			<img class="graphic_002" data-stellar-ratio="1.5" src="img/parallax_graphic/Shape 1拷貝.svg">
  			<div class="container">
  				<div class="hero__content wow bounceInRight">
  					<h1 class="hero__heading">您好<br>我是高梓棋</h1><p style="font-size: 40px">&#128512;</p>
  					<h3 class="hero__description">你的視覺網站設計師</h3>
- 					<a href="mailTo:xeriok925999@gmail.com"class="btn btn--primary btn--lg">我們聊聊吧</a>
+ 					<a href="mailTo:xeriok925999@gmail.com"class="btn btn--primary btn--lg">我的心路歷程</a>
  				</div>
  				
  			</div>
  		</div>
  		<!-- End about -->
  		<!-- Start quote -->
- 		<div id="about" class="quote bg-color-white lean-bg--top">
- 			<img class="graphic_003" src="img/parallax_graphic/Unlike.svg" data-stellar-ratio="1.5">
+ 		<div id="about" class="quote bg-color-white lean-bg--top">s
  			<div class="container">
  			  <div class="row">
  			  	<div class="col-sm-6 col-sm-push-3">
@@ -112,8 +111,7 @@
  						<i class="fas fa-angle-double-down"></i>
  					   </div>
  					</div>
- 					<p class="quote__text">您好,歡迎來到我的網站,這個網站是以粉紅為主色調去設計的一個網站再加上貼在背後的宇宙動態讓你彷彿身在其中,同時這個網站也代表著我的個性以及想法.我本身是一個有很多不同想法的人,後面背景的宇宙動態就是類似我慢慢孵化的想法,醞釀到一個程度後
- 				    一觸擊發,如果你需要一個很有創意的人那我應該是你的好選擇我也是個熱於談天說話聽取各種不同意見來跟他人合作的人,如果您想看我的作品可以點選上面的漢堡icon然後點portfoilo可以連到作品的部分,如果您想了解我多一點可以點選about關於我的部分.此外我的網站也都有RWD您也可以用手機瀏覽我的網站,希望您在我網頁上有個好的體驗！
+ 					<p class="quote__text">您好，歡迎來到我的網站，你可以點選"我的心路歷程"的按鈕去看到關於我的自我介紹，如果你想看我的作品集麻煩點選上方的作品集欄位裡面有我的 UI 設計以及導覽影片，想看其他作品像是動畫的話可以到我的 Youtube 觀看，如果想看繪畫或圖片合成作品的話可以到 Behance上去觀看，希望你有個好的網站體驗。
  					</p>
  					<div class="quote__name"><span>梓棋</span>-來自台灣台北</div>
  				  </div>
@@ -137,7 +135,7 @@
  							<div class="skill-card__inner">
  							  <div class="skill-card__title">修圖以及合成</div>
  							   <p class="skill-card__text">
- 							   	我製作些許不同種的圖片修圖以及合成圖,懂的光影的運用,使得整張圖片看起來更加的符合視覺效果. 
+ 							   	製作不同種的圖片修圖以及合成圖，懂的光影的運用，使得整張圖片看起來更加的符合視覺效果。 
  							   </p>
  							</div>
  							<div id="skill2" class="skill-card__icon">
@@ -149,8 +147,7 @@
  							<div class="skill-card__inner">
  							  <div class="skill-card__title">網站設計</div>
  							   <p class="skill-card__text">
- 							   	熟悉Sketch以及Figma和Invsion等介面設計軟體.也擅長表現各種不懂的介面形式的表現及UI flow流程.從Ｗireframe(草稿)以及到精稿跟原型的過程
- 							   	,您可以在下方的作品欄位中看到.
+ 							   	熟悉 Sketch 以及 Figma 等介面設計軟體，使用不同 UI motion 或 Illustration 來達到視覺傳遞效果。
  							   </p>	
  							</div>
  							<div id="skill4" class="skill-card__icon">
@@ -164,7 +161,8 @@
  							<div class="skill-card__inner">
  							  <div class="skill-card__title">插畫以及向量</div>
  							   <p class="skill-card__text">
- 							   	擅長繪製Q版人物,和一些幾何以及icon的繪製,您可以透過旁邊的按鈕連結.
+ 							   	擅長繪製Q版人物，和一些幾何以及 Icon 和 Logo 的繪製，從草圖匡線的描述
+ 							   	到精稿動態的呈現。
  							   
  							   </p>	
  							</div>
@@ -177,7 +175,8 @@
  							<div class="skill-card__inner">
  							  <div class="skill-card__title">動畫設計</div>
  							   <p class="skill-card__text">
- 							   	擅長一些2D和3D的動畫,也懂的使用Lottie做一些SVG的向量動態在網站上.
+ 							   	擅長一些2D和3D的動畫，動態的合成以及視覺效果的呈現，
+ 							   	以及 Lottie motion 的應用用視覺表達想法。
  							   </p>	
  							</div>
  							<div id="skill3" class="skill-card__icon">
@@ -191,7 +190,7 @@
  							<div class="skill-card__inner">
  							  <div class="skill-card__title">影像配樂</div>
  							   <p class="skill-card__text">
- 							   	懂的運用不同的旋律和鼓點做出符合動畫的配樂,擅長不同種類的風格,讓你有彷彿置身其中的感覺.
+ 							   	懂的運用不同的旋律和鼓點做出符合動畫的配樂，擅長不同種類的風格，讓你有彷彿置身其中的感覺。
  							   </p>	
  							</div>
  							<div id="skill5" class="skill-card__icon">
@@ -203,8 +202,8 @@
  							<div class="skill-card__inner">
  							  <div class="skill-card__title">前端設計</div>
  							   <p class="skill-card__text">
- 							   	對Html的架構熟悉,以及
- 							   	CSS的運用和一些Javascipt搭配Jquery的寫法.您可以直接看我的網站了解我的設計,或是在下方的作品集連結到我設計的網站上.
+ 							   	對 Html 的架構熟悉響應式的設計，以及
+ 							   	CSS 的運用和一些 Javascipt 搭配 Jquery 的寫法。
  							</div>
  							<div id="skill6" class="skill-card__icon">
  						  </div>
@@ -230,7 +229,7 @@
  						 	<h4 class="experience__descirption">2020</h4>
  						 	<p class="timeline-card__text">
  						 		(補充一下上面是我的MG- CV)
- 						 		從屏東大學畢業然後開始做一些插畫的接案,同時也開始學習接洽不同類型的設計,在520的時候去當兵到9月結束.
+ 						 		從屏東大學畢業然後開始做一些插畫的接案，同時也開始學習接洽不同類型的設計，在520的時候去當兵到9月結束。
  						    </p>
  						 </div>	
  						</div>
@@ -238,7 +237,7 @@
  						 <div class="timeline-card wow fadeInUp">
  						 	<h4 class="experience__descirption">2021</h4>
  						 	<p class="timeline-card__text">
- 						 		開始我的第一個實習,在瑞澤企業實習數位行銷,接觸了一些社群貼文FB廣告,網站的部分有SEO和GA讓我對網站有更深入的了解.
+ 						 		開始我的第一個實習，在瑞澤企業實習數位行銷，接觸了一些社群貼文FB廣告，網站的部分有SEO和GA讓我對網站有更深入的了解。
  						 	</p>
  						 </div>	
  						</div>
@@ -251,7 +250,6 @@
  		<!-- end experience -->
  		<!-- start Portfolio -->
  		<div id="portfolio" class="Portfolio bg-color-white lean-bg--top lean-bg--bottom">
- 			<img class="graphic_007" data-stellar-ratio="1.5" src="img/parallax_graphic/cir-pink-sm.svg">
  			<img class="graphic_008" data-stellar-ratio="1.5"src="img/parallax_graphic/Shape 3拷貝.svg">
  			<img class="graphic_009" data-stellar-ratio="1.5" src="img/parallax_graphic/box.svg">
  			<img class="graphic_010" data-stellar-ratio="1.5" src="img/parallax_graphic/randomshpae.svg">
@@ -260,142 +258,123 @@
  			  <h2 class="subtitle u-text-center wow bounceInDown">作品集</h2>
  			  <div class="portfolio-list">
  			  	<div class="portfolio-item wow fadeInUp">
-			  		<div class="row">
-  			  			<div class="col-sm-6 col-sm-push-5">
+ 			  	 <div class="portfolio-container">
+ 			  		<div class="row">
+ 			  			<div class="col-sm-6 col-sm-push-1">
  			  				<div class="imgbox">
- 			  					<a href="img/T-shirt.png" data-fancybox ="group">
+ 			  				   <a href="img/moblie phone.svg" data-fancybox="group">
  			  						<div class="imgbox__inner imgbox__inner--4-3">
- 			  					 <div class="image" style="background-image: url(img/T-shirt.png);"></div>
+ 			  					 <img class="image" src="img/moblie phone.svg">
  			  					</div>
- 			  					</a>
+ 			  				  </a>
  			  				</div>
  			  			</div>
- 			  			<div class="col-sm-4 col-sm-pull-5">
- 			  			  <div class="portfolio-item__text portfolio-item__text--right">
- 			  					<h3 class="portfolio-item__title portfolio-item__title--left">這是我的T-shirt設計</h3>
- 			  					<p class="portfolio-item__intro">   在我的實習中我最後
- 			  						設計了一個結訓的制服,以可愛帥氣的Q版人物為主軸的風格.
+ 			  			<div class="col-sm-4 col-sm-push-1">
+ 			  			  <div class="portfolio-item__text portfolio-item__text--left">
+ 			  					<h3 class="portfolio-item__title">為網路銀行打造新商機</h3>
+ 			  					<p class="portfolio-item__intro"> 
+ 			  						新的概念針對網銀 APP 讓使用者更方便管理金錢流動。
  			  					</p>
- 			  					<a class="text-btn text-btn--primary text-btn--lg" href="https://www.behance.net/azxcvbnm51067c" target="_blank">在看更多作品><</a>		
+ 			  					<a class="text-btn text-btn--primary text-btn--lg" href="https://youtu.be/EpoNTty3i4U" target="_blank">在看更多作品><</a>		
  			  			  </div>
  			  			</div>
  			  		</div>
  			  	</div>
+ 			   </div>
+ 			   <div class="portfolio-item wow fadeInUp">
+ 			  	 <div class="portfolio-container">
+ 			  		<div class="row">
+ 			  			<div class="col-sm-6 col-sm-push-6">
+ 			  				<div class="imgbox">
+ 			  					<a href="img/ramen.svg" data-fancybox="group">
+ 			  						<div class="imgbox__inner imgbox__inner--4-3">
+ 			  					 <img class="image" src="img/ramen.svg">
+ 			  					</div>
+ 			  					</a>
+ 			  				</div>
+ 			  			</div>
+ 			  			<div class="col-sm-5 col-sm-pull-5">
+ 			  			  <div class="portfolio-item__text">
+ 			  					<h3 class="portfolio-item__title">拉麵官方網站形象汰舊換新</h3>
+ 			  					<p class="portfolio-item__intro">簡單的視覺平衡往往都是可以很順利地帶出氛圍來。
+ 			  					</p>
+ 			  					<a class="text-btn text-btn--primary text-btn--lg" href="https://www.youtube.com/watch?v=1qc4M36xF9w" target="_blank">在看更多作品><</a>		
+ 			  			  </div>
+ 			  			</div>
+ 			  		</div>
+ 			  	 </div>	
+ 			  	</div>
  			  	<div class="portfolio-item wow fadeInUp">
+ 			  	<div class="portfolio-container">
  			  		<div class="row">
  			  			<div class="col-sm-6 col-sm-push-1">
  			  				<div class="imgbox">
- 			  				  <a href="img/web.png" data-fancybox="group">
+ 			  				  <a data-fancybox="group" href="img/Orange.svg">
  			  				  	<div class="imgbox__inner imgbox__inner--4-3">
- 			  					 <div class="image" style="background-image: url(img/web.png);"></div>
+ 			  					 <div class="image" style="background-image: url('img/Orange.svg');"></div>
  			  					</div>
  			  				  </a>	
  			  				</div>
  			  			</div>
  			  			<div class="col-sm-4 col-sm-push-1">
  			  			  <div class="portfolio-item__text">
- 			  					<h3 class="portfolio-item__title portfolio-item__title--right">這是我的網站設計</h3>
+ 			  					<h3 class="portfolio-item__title portfolio-item__title--right">接案平台<br>管理金流交易整合</h3>
  			  					<p class="portfolio-item__intro">
- 			  					 以一個接案平台及信用卡為出發點的網站Landing page設計,從草稿開始到精稿到一些簡單的網站原形呈現
-								  ,也透過了免費方案讓使用者知道我們APP的好處藉此引導他們去升級方案,您可透過旁邊按鈕到我的Figma上去看看.
+ 			  					整頁式的著陸頁來帶出整體的企劃使用者可以更方便管理。
  			  					</p>
- 			  					<a class="text-btn text-btn--primary text-btn--lg" href="https://www.figma.com/file/mAwZH6rI8zrIqHUHUt6aVX/landing-page?node-id=0%3A1" target="_blank">在看更多作品><</a>		
+ 			  					<a class="text-btn text-btn--primary text-btn--lg" href="https://www.youtube.com/watch?v=I1ULIPwkMCU&t=55s" target="_blank">在看更多作品><</a>		
  			  			  </div>
  			  			</div>
  			  		</div>
  			  	</div>
+ 			  	</div>
  			  	<div class="portfolio-item wow fadeInUp">
+ 			  	<div class="portfolio-container">
  			  		<div class="row">
- 			  			<div class="col-sm-6 col-sm-push-5">
+ 			  			<div class="col-sm-6 col-sm-push-6">
  			  				<div class="imgbox">
- 			  					<div class="imgbox__inner imgbox__inner--4-3">
- 			  					 <iframe class="image" width="560" height="315" src="https://www.youtube.com/embed/zhKCWMFHkkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 			  					 <a data-fancybox="group" href="img/3d.svg">
+ 			  				  	<div class="imgbox__inner imgbox__inner--4-3">
+ 			  					 <div class="image" style="background-image: url('img/3d.svg');"></div>
  			  					</div>
- 			  					
+ 			  				  </a>		
  			  				</div>
  			  			</div>
- 			  			<div class="col-sm-4 col-sm-pull-6">
+ 			  			<div class="col-sm-5 col-sm-pull-5">
  			  			  <div class="portfolio-item__text">
- 			  					<h3 class="portfolio-item__title portfolio-item__title--right">這是我的三低動畫設計</h3>
- 			  					<p class="portfolio-item__intro"> 你可以在我的youtube頻道上查看我的動畫以及配樂設計,亦或者在IG上也可以查看得到.
+ 			  					<h3 class="portfolio-item__title portfolio-item__title--right">合成動畫設計的視覺衝擊</h3>
+ 			  					<p class="portfolio-item__intro">視覺的衝擊往往是設計師與使用者溝通的語言。
  			  					</p>
- 			  					<a class="text-btn text-btn--primary text-btn--lg" href="https://www.youtube.com/channel/UC-w4wbIJtSBX5ulyUo6QiFg" target="_blank" target="_blank">在看更多作品><</a>		
+ 			  					<a class="text-btn text-btn--primary text-btn--lg" href="https://www.youtube.com/watch?v=zhKCWMFHkkM" target="_blank">在看更多作品><</a>		
  			  			  </div>
  			  			</div>
  			  		</div>
  			  	</div>
+ 			  	</div>		  		
  			  	<div class="portfolio-item wow fadeInUp">
+ 			  	<div class="portfolio-container">
  			  		<div class="row">
  			  			<div class="col-sm-6 col-sm-push-1">
  			  				<div class="imgbox">
- 			  				   <a href="img/moblie phone.png" data-fancybox="group">
+ 			  					<a href="img/guideline.svg" data-fancybox="group">
  			  						<div class="imgbox__inner imgbox__inner--4-3">
- 			  					 <img class="image" src="img/moblie phone.png">
- 			  					</div>
- 			  				  </a>
- 			  					
- 			  				</div>
- 			  			</div>
- 			  			<div class="col-sm-4 col-sm-push-2">
- 			  			  <div class="portfolio-item__text portfolio-item__text--left">
- 			  					<h3 class="portfolio-item__title">這我的手機APP設計</h3>
- 			  					<p class="portfolio-item__intro"> 從一個銀行APP的設計為出發點
- 			  				    ,用一個3D logo的感覺讓
- 			  				    它呈現出高科技的感覺,也包含了一些可以讓消費者更清楚自己消費了什麼的記錄設定,用以UI的視覺讓使用者有更視覺衝擊的體驗,
-							    然後還有一些不同有可能發生的狀態我也有都想在裡面,您可以在Figma上查看.	
- 			  					</p>
- 			  					<a class="text-btn text-btn--primary text-btn--lg" href="https://www.figma.com/file/Z2r9VqmYbxQ4SkA7HLj395/Mobile-phone-design-credit-card?node-id=0%3A1" target="_blank">在看更多作品><</a>		
- 			  			  </div>
- 			  			</div>
- 			  		</div>
- 			  	</div>
- 			  	<div class="portfolio-item wow fadeInUp">
- 			  		<div class="row">
- 			  			<div class="col-sm-6 col-sm-push-5">
- 			  				<div class="imgbox">
- 			  					<a href="img/fullpage.png" data-fancybox="group">
- 			  						<div class="imgbox__inner imgbox__inner--8-4">
- 			  					 <img class="image" src="img/fullpage.png">
- 			  					</div>
- 			  					</a>
- 			  					
- 			  					
- 			  				</div>
- 			  			</div>
- 			  			<div class="col-sm-4 col-sm-pull-5">
- 			  			  <div class="portfolio-item__text">
- 			  					<h3 class="portfolio-item__title">這是我的簡約質感風設計</h3>
- 			  					<p class="portfolio-item__intro">這是我幫我弟弟拉麵店設計的一個形象網站,以黑白和一點的金色為設計方向做為主色調,為了讓整體的感覺有高級的質感又不希望讓他離消費者的距離太遠,所以整體的光影沒有過於強烈的對比,讓消費者覺得物超所值高CP感的一個設計風格,您可以用下面的按鈕查看完整的設計！
-									
- 			  					</p>
- 			  					<a class="text-btn text-btn--primary text-btn--lg" href="https://queekao.github.io/My-fullpage-design/fullpageweb.html#firstPage" target="_blank">在看更多作品><</a>		
- 			  			  </div>
- 			  			</div>
- 			  		</div>
- 			  	</div>
- 			  	<div class="portfolio-item wow fadeInUp">
- 			  		<div class="row">
- 			  			<div class="col-sm-6 col-sm-push-1">
- 			  				<div class="imgbox">
- 			  					<a href="img/guideline.png" data-fancybox="group">
- 			  						<div class="imgbox__inner imgbox__inner--8-4">
- 			  					 <img class="image" src="img/guideline.png">
+ 			  					 <img class="image" src="img/guideline.svg">
  			  					</div>
  			  					</a>
  			  				</div>
  			  			</div>
  			  			<div class="col-sm-4 col-sm-push-1">
- 			  			  <div class="portfolio-item__text portfolio-item__text--right">
- 			  					<h3 class="portfolio-item__title">這是一個guideline</h3>
- 			  					<p class="portfolio-item__intro">這個guideline不是針對這個網站做的
- 			  						,而是一個發想可以讓我的設計更有條有序的執行.
+ 			  			  <div class="portfolio-item__text portfolio-item__text--left">
+ 			  					<h3 class="portfolio-item__title">我是如何管理設計的呢？</h3>
+ 			  					<p class="portfolio-item__intro">
+ 			  						在顏色跟顏色之間的漸層來找搭配顏色往往是個不錯得選擇。
  			  					</p>
  			  					<a class="text-btn text-btn--primary text-btn--lg" href="https://queekao.github.io/Guideline/guideline.html" target="_blank">在看更多作品><</a>		
  			  			  </div>
  			  			</div>
  			  		</div>
+ 			  	</div>	
  			  	</div>
- 			  	
  			  </div>
  			</div>	
  		</div>
@@ -441,7 +420,7 @@
  					  <i class="icon fab fa-behance-square" ></i>
  					 </a>
  					 <a href="https://www.instagram.com/queekao/" class="icon-btn wow bounceIn" data-wow-delay="0.8s" target="_blank">
- 					   <i class="icon fab fa-instagram"></i>
+ 					   <i class="icon fab fa-instagram-square"></i>
  					 </a>
  					</div>
  				</div>
@@ -477,7 +456,6 @@
      	var blur = document.getElementById('about');
      	about.classList.toggle('active');
      }
-
  </script>
 
 
