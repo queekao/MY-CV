@@ -1,54 +1,54 @@
 $(document).ready(function(){
 	// lottie animation
 	$(window).ready(function(){
-			var animation = bodymovin.loadAnimation({
- 		container: document.getElementById('svg'),
+		var animation = bodymovin.loadAnimation({
+ 		container: document.getElementById('logo'),
  		renderer:'svg',
- 		loop:'',
+ 		loop:false ,
  		autoplay:'true',
- 		path:'https://assets3.lottiefiles.com/packages/lf20_3uoshewc.json'
+ 		path:'https://assets5.lottiefiles.com/private_files/lf30_0g4jfhqn.json'
 		})
 		var animation = bodymovin.loadAnimation({
  		container: document.getElementById('skill1'),
  		renderer:'svg',
  		loop:'',
  		autoplay:'true',
- 		path:'https://assets2.lottiefiles.com/private_files/lf30_24p1bq00.json'
+ 		path:'https://assets4.lottiefiles.com/private_files/lf30_coea7bte.json'
 		})
 		var animation = bodymovin.loadAnimation({
  		container: document.getElementById('skill2'),
  		renderer:'svg',
  		loop:'',
  		autoplay:'true',
- 		path:'https://assets5.lottiefiles.com/private_files/lf30_pzt6fyzj.json'
+ 		path:'https://assets10.lottiefiles.com/packages/lf20_g4m1auuk.json'
 		})
 		var animation = bodymovin.loadAnimation({
  		container: document.getElementById('skill3'),
  		renderer:'svg',
  		loop:'',
  		autoplay:'true',
- 		path:'https://assets1.lottiefiles.com/private_files/lf30_kmsqivyk.json'
+ 		path:'https://assets10.lottiefiles.com/private_files/lf30_31yi2jtl.json'
 		})
 		var animation = bodymovin.loadAnimation({
  		container: document.getElementById('skill4'),
  		renderer:'svg',
  		loop:'',
  		autoplay:'true',
- 		path:'https://assets2.lottiefiles.com/private_files/lf30_qhrpbr3t.json'
+ 		path:'https://assets7.lottiefiles.com/private_files/lf30_qrnxyorl.json'
 		})
 		var animation = bodymovin.loadAnimation({
  		container: document.getElementById('skill5'),
  		renderer:'svg',
  		loop:'',
  		autoplay:'true',
- 		path:'https://assets8.lottiefiles.com/private_files/lf30_80xbe56b.json'
+ 		path:'https://assets3.lottiefiles.com/private_files/lf30_ztkzfr9e.json'
 		})
 		var animation = bodymovin.loadAnimation({
  		container: document.getElementById('skill6'),
  		renderer:'svg',
  		loop:'',
  		autoplay:'true',
- 		path:'https://assets9.lottiefiles.com/private_files/lf30_83oy3ycs.json'
+ 		path:'https://assets7.lottiefiles.com/private_files/lf30_zkxz853t.json'
 		})
 	// header color change
 	$(window).on("scroll",function(){
@@ -60,7 +60,6 @@ $(document).ready(function(){
 		else{
 			$header.removeClass("header--colored");
 		}
-
 		
  	})
 		play.addEvenlistener('click', () => {
@@ -74,8 +73,8 @@ $(document).ready(function(){
 	}
 	
 	// fancybox plugin options
-	$('[data-fancybox]').fancybox({
-		loop: true
+	$('[data-fancybox="gallery"]').fancybox({
+		loop: true,
 	});
 	// stellar plugin initialize
 	if(screen.width > 768){
