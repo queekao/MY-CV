@@ -231,4 +231,8 @@
     color: #000;
     opacity: 0.75;
 }
-
+@media(max-width: 500px){
+    .contact{
+    font-size: 14px;
+    line-height: 24px;
+}
