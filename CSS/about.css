@@ -43,13 +43,18 @@
     box-shadow: 0 0px 1000px rgba(0, 0, 0, 1);
 }
 @media(max-width: 400px){
+    .bg{
+    height: 120vh;
+}
+}
+@media(max-width: 400px){
     .bg-1{
-        height: 130%;
+        height: 100%;
     }
 }
 @media(max-width: 400px){
     .bg__chinese{
-        height: 110%;
+        height: 100%;
     }
 }
 /*   navbar   */
