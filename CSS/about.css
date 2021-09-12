@@ -192,6 +192,7 @@
     color: #484848;
     text-align: center;
     z-index: 2;
+    margin-bottom: 20px;
 
 }
 .intro__content span{
@@ -223,5 +224,11 @@
     margin-bottom: 18px;
     color: #484848;
 }
+}
+.contact{
+    padding-top: 40px;
+    font-size: 24px;
+    color: #000;
+    opacity: 0.75;
 }
 
