@@ -4,7 +4,7 @@ $(document).ready(function(){
 		var animation = bodymovin.loadAnimation({
  		container: document.getElementById('logo'),
  		renderer:'svg',
- 		loop:false ,
+ 		loop:'2',
  		autoplay:'true',
  		path:'https://assets5.lottiefiles.com/private_files/lf30_0g4jfhqn.json'
 		})
