@@ -285,19 +285,25 @@
 /*-----------*/
 /* imgbox */
 .imgbox{
-    padding-top: 5%;
+    padding-top: 8.233333%;
     width: 100%;
     overflow: hidden;
 }
+@media(max-width: 1200px){
+    .imgbox{
+        padding-top: 18.6%;
+        padding-bottom: 0%;
+    }
+}
 @media(max-width: 992px){
     .imgbox{
-        padding-top: 20%;
+        padding-top: 41%;
         padding-bottom: 0%;
     }
 }
 @media(max-width: 768px){
     .imgbox{
-        padding-top: 20%;
+        padding-top: 33.533333%;
         padding-bottom: 0%;
     }
 }
@@ -754,7 +760,6 @@
     }
 }
 
-
 .skill-group{
     margin-top: 104px;
     padding-bottom: 80px;
@@ -983,8 +988,9 @@
  .portfolio-container{
     padding:50px;
     width: 100%;
-    height: 68%;
+    height: 65%;
     align-items: center;
+    text-align: inherit;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
  }
  @media(max-width: 768px){
@@ -1005,7 +1011,7 @@
  }
   @media(max-width: 600px){
     .portfolio-container{
-      height: 100%;
+      height: 85%;
     }
  }
  @media(max-width: 400px){
@@ -1025,6 +1031,7 @@
 @media(max-width: 768px){
     .portfolio-item__text{
         padding-top: 0%;
+
     }
  }
  @media(max-width: 400px){
@@ -1131,6 +1138,24 @@
     margin-bottom: -80px;
  }
  }
+ .portfolio__position-right{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 50%;
+    height: 100%;
+    padding-right: 10%;
+}
+.portfolio__position-left{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 50%;
+    height: 100%;
+    padding-left: 10%;
+}
 
 /*--------
 /* Contact */
