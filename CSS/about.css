@@ -194,6 +194,9 @@
     z-index: 2;
 
 }
+.intro__content span{
+    color: red;
+}
 .intro__content .Chinese{
     font-size: 24px;
     line-height: 24px;
