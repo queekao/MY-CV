@@ -1068,7 +1068,7 @@
  }
    @media(max-width: 767px){
     .portfolio-item__intro{
-    font-size: 15px;
+    font-size: 16px;
  }
   .portfolio-item__title{
      font-size: 30px;
@@ -1084,7 +1084,7 @@
  }
   @media(max-width: 400px){
     .portfolio-item__intro{
-    font-size: 15px;
+    font-size: 16px;
  }
   .portfolio-item__title{
      font-size: 30px;
@@ -1092,8 +1092,8 @@
  }
  @media(max-width: 320px){
     .portfolio-item__intro{
-    font-size: 15px;
-    line-height: 15px;
+    font-size: 16px;
+    line-height: 16px;
  }
   .portfolio-item__title{
      font-size: 30px;
