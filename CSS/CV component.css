@@ -285,26 +285,27 @@
 /*-----------*/
 /* imgbox */
 .imgbox{
-    padding-top: 8.233333%;
+    padding-top: 7.6%;
     width: 100%;
     overflow: hidden;
+    padding-bottom:7.6% ;
 }
 @media(max-width: 1200px){
     .imgbox{
-        padding-top: 18.6%;
-        padding-bottom: 0%;
+        padding-top: 17.5%;
+        padding-bottom: 17.5%;
     }
 }
 @media(max-width: 992px){
     .imgbox{
-        padding-top: 41%;
-        padding-bottom: 0%;
+        padding-top: 35.5%;
+        padding-bottom: 35.5%;
     }
 }
 @media(max-width: 768px){
     .imgbox{
-        padding-top: 33.533333%;
-        padding-bottom: 0%;
+        padding-top: 39.5%;
+        padding-bottom: 39.5%;
     }
 }
 @media(max-width: 767px){
@@ -315,6 +316,8 @@
 }
 @media(max-width: 766px){
     .imgbox{
+        padding-top: 0%;
+        padding-bottom: 0%;
         width: 100%;
     }
 }
@@ -354,8 +357,8 @@
     left: 0;
     width: 100%;
     z-index: 50;
-    background-color: #000;
-    opacity: 0.9;
+    background-color: #333333;
+    opacity: 1;
     transition: all 0.5s;
 }
 
@@ -595,9 +598,9 @@
 .nav .popup-menu__item:hover{
     color: #FFE4C4;
 }
- .main#blur.active{
+ /*.main#blur.active{
     filter: blur(10px);
-}
+}*/
 }
 
 
@@ -616,6 +619,7 @@
     .hero__content .hero__heading{
         margin-top: 40px;
         font-size: 40px;
+        line-height: 52px;
     }
     .hero__content .hero__description{
         font-size: 20px;
@@ -624,12 +628,14 @@
 .hero__heading{
     font-size: 100px;
     font-weight: 900;
+    line-height: 130px;
     color: #fff;
     user-select: none;
 }
 @media(max-width: 766px){
     .hero__heading{
         font-size: 50px;
+        line-height: 65px;
     }
 }
 .hero__description{
@@ -692,11 +698,17 @@
 /* Quote */
 .quote{
     padding-top: 160px;
-    padding-bottom: 500px;
+    padding-bottom: 600px;
 }
 @media(max-width: 766px){
     .quote{
+
         padding-bottom: 100px;
+    }
+}
+@media(max-width: 766px){
+    .quote{
+        padding-top: 80px;
     }
 }
 
@@ -726,9 +738,12 @@
 }
 .quote__text{
     font-size: 18px;
-    line-height: 40px;
+    line-height: 36px;
     color: #484848;
     margin-bottom: 24px; 
+}
+.quote__text span{
+    color: red;
 }
 .quote__name{
     text-align: center;
@@ -761,7 +776,7 @@
 }
 
 .skill-group{
-    margin-top: 104px;
+    margin-top: 60px;
     padding-bottom: 80px;
 }
 .skill-card{
@@ -786,6 +801,7 @@
 }
 .skill-card__text{
     margin: 0;
+    line-height: 24px;
 }
 .skill-card__icon{
     position: absolute;
@@ -830,22 +846,52 @@
  /*Exerpience*/
  .experience{
     padding-top: 80px;
-    padding-bottom: 120px;
+    padding-bottom: 80px;
     
  }
  @media(max-width: 992px){
     .experience{
     padding-top: 80px;
-    padding-bottom: 200px;
+    padding-bottom: 80px;
     
  }
  }
  .myphoto{
-    margin-top: 104px;
+    margin-top: 60px;
     height: 300px;
     width: 100%;
+    background-color: white;
+    opacity: 0.9;
 /*    border: 1px solid #fff;*/
    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+ }
+ .myphoto h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0 auto;
+    color: #232323;
+ }
+ .image__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+
+    background:rgba(0, 0, 0, 0.3);
+    transition: all 0.3s;
+}
+.image__overlay:hover{
+    background-color: #484848;
+    opacity: 0.5;
+}
+ @media(max-width: 992px){
+    .myphoto{
+    margin-top: 40px;
+ }
  }
  .myvideo{
     position: absolute;
@@ -872,9 +918,14 @@
     margin-left: auto;
     margin-top: 60px;
  }
+  @media(max-width: 992px){
+    .timeline-group{
+        height: 450px;
+    }
+ }
  @media(max-width: 766px){
     .timeline-group{
-        height: 400px;
+        height: 450px;
     }
  }
   @media(max-width: 400px){
@@ -884,7 +935,7 @@
  }
  .timeline{
     width: 4px;
-    height: 120%;
+    height: 100%;
     background-color: #e881a7;
     position: absolute;
     top: 0;
@@ -923,6 +974,7 @@
  }
 .timeline-card__text{
     margin: 0;
+    line-height: 24px;
 }
  .timeline-cards__row:nth-child(odd) > :before{
      transform: translate(50%, -50%);
@@ -964,8 +1016,14 @@
 
  /*portfolio-list*/
  .portfolio-list{
-    padding-top: 80px;
+    padding-top: 60px;
 
+ }
+  @media(max-width: 768px){
+    .portfolio-list{
+    padding-top: 0px;
+
+ }
  }
  @media(max-width: 320px){
     .portfolio-list{
@@ -986,37 +1044,36 @@
   }
  }
  .portfolio-container{
-    padding:50px;
     width: 100%;
-    height: 65%;
+    height: 500px;
     align-items: center;
     text-align: inherit;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
  }
  @media(max-width: 768px){
     .portfolio-container{
-      height: 60%;
+      height: 530px;
     }
  }
  @media(max-width: 767px){
     .portfolio-container{
-      height: 75%;
+      height: 550px;
     }
  }
  @media(max-width: 766px){
     .portfolio-container{
      visibility: visible;
-      height: 105%;
+      height: 840px;
     }
  }
   @media(max-width: 600px){
     .portfolio-container{
-      height: 85%;
+      height: 750px;
     }
  }
  @media(max-width: 400px){
     .portfolio-container{
-      height: 80%;
+      height: 640;
       box-shadow: 0 0px 0px;
     }
  }
@@ -1025,12 +1082,19 @@
 }
 @media(max-width: 992px){
     .portfolio-item__text{
-        padding-top: 0%;
+        padding-top: 15%;
     }
  }
 @media(max-width: 768px){
     .portfolio-item__text{
+        padding-top: 15%;
+
+    }
+ }
+ @media(max-width: 767px){
+    .portfolio-item__text{
         padding-top: 0%;
+        padding-left: 20px;
 
     }
  }
@@ -1068,7 +1132,7 @@
  }
    @media(max-width: 767px){
     .portfolio-item__intro{
-    font-size: 16px;
+    font-size: 15px;
  }
   .portfolio-item__title{
      font-size: 30px;
@@ -1084,7 +1148,7 @@
  }
   @media(max-width: 400px){
     .portfolio-item__intro{
-    font-size: 16px;
+    font-size: 15px;
  }
   .portfolio-item__title{
      font-size: 30px;
@@ -1092,8 +1156,8 @@
  }
  @media(max-width: 320px){
     .portfolio-item__intro{
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 15px;
+    line-height: 15px;
  }
   .portfolio-item__title{
      font-size: 30px;
@@ -1138,7 +1202,11 @@
     margin-bottom: -80px;
  }
  }
- .portfolio__position-right{
+ /*.portfolio-container__inner{
+    width: 100%;
+    padding-top: 50%;
+ }*/
+/* .portfolio__position-right{
     position: absolute;
     top: 50%;
     right: 0;
@@ -1155,7 +1223,7 @@
     width: 50%;
     height: 100%;
     padding-left: 10%;
-}
+}*/
 
 /*--------
 /* Contact */
@@ -1248,6 +1316,7 @@
 /* Footer */
 .footer{
     padding: 40px 0;
+    height: 100%;
 }
 .final-text{
     margin: 0 auto;
