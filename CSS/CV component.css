@@ -699,7 +699,7 @@
 /* Quote */
 .quote{
     padding-top: 160px;
-    padding-bottom: 700px;
+    padding-bottom: 750px;
 }
 @media(max-width: 766px){
     .quote{
