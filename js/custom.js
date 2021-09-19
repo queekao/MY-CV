@@ -90,5 +90,4 @@ $(window).ready(function(){
 	
 
 })
-https://queekao.github.io/MY-CV/CV.html
-https://queekao.github.io/MY-CV/CV%E4%B8%AD%E6%96%87%E7%89%88.html#!
+
