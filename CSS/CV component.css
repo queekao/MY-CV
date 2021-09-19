@@ -744,7 +744,7 @@
     margin-bottom: 24px; 
 }
 .quote__text span{
-    color: red;
+     font-weight: 1000;
 }
 .quote__name{
     text-align: center;
