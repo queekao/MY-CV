@@ -623,6 +623,7 @@
     }
     .hero__content .hero__description{
         font-size: 20px;
+        line-height: 26px;
     }
 }
 .hero__heading{
@@ -640,7 +641,6 @@
 }
 .hero__description{
     font-size: 30px;
-    line-height: 39px;
     font-weight: 600;
     margin-top: 0;
     margin-bottom: 36px;
@@ -750,7 +750,7 @@
     margin-bottom: 24px; 
 }
 .quote__text span{
-     font-weight: 1000;
+    font-weight: 1000;
 }
 .quote__name{
     text-align: center;
@@ -880,7 +880,7 @@
     margin: 0 auto;
     color: #232323;
  }
-@media(max-width: 766px){
+ @media(max-width: 766px){
    .myphoto h3{
     font-size:30px;
     line-height: 39px;
@@ -1030,6 +1030,7 @@
     padding-top: 80px;
     padding-bottom: 80px;
     height: 100%;
+
  }
 
 
@@ -1055,13 +1056,45 @@
     margin-bottom: -50px;
     
  }
-  @media(max-width: 768px){
-   .portfolio-item{
+   @media(max-width: 1200px){
+    .portfolio-item__title--right{
+    margin-right: 0px;
+ }
+  .portfolio-item__title--left{
+    margin-left: 0px;
+ }
+  .portfolio-item{
     height: 100vh;
-    margin-bottom: -200px;
+    margin-bottom: -50px;
+ }
+}
+@media(max-width: 1024px){
+   .portfolio-item{
+    height: 50vh;    
+  }
+ }
+  @media(max-width: 1023px){
+   .portfolio-item{
+    height: 120vh;
+    margin-bottom: auto;
     
   }
  }
+   @media(max-width: 768px){
+   .portfolio-item{
+    height: 60vh;
+    margin-bottom: auto;
+    
+  }
+ }
+   @media(max-width: 767px){
+   .portfolio-item{
+    height: 120vh;
+    margin-bottom: auto;
+    
+  }
+ }
+
  .portfolio-container{
     width: 100%;
     height: 500px;
@@ -1192,11 +1225,8 @@
   .portfolio-item__title--left{
     margin-left: 0px;
  }
-  .portfolio-item{
-    height: 100vh;
-    margin-bottom: -50px;
- }
-}
+} 
+
  @media(max-width: 766px){
     .portfolio-item__title--right{
     margin-right: 0px;
@@ -1208,7 +1238,6 @@
     height: 100vh;
     margin-bottom: 250px;
  }
- 
  }
  @media(max-width: 400px){
     .portfolio-item__title--right{
