@@ -612,6 +612,10 @@
     padding-top: 20vh;
     padding-bottom: 20vh;
 }
+.emoji{
+    font-size: 60px;
+    line-height: 78px;
+}
 @media(max-width: 480px){
     .hero{
         padding-top: 80px ;
@@ -625,6 +629,7 @@
         font-size: 20px;
         line-height: 26px;
     }
+    
 }
 .hero__heading{
     font-size: 100px;
@@ -638,7 +643,18 @@
         font-size: 50px;
         line-height: 65px;
     }
+    .emoji{
+        font-size: 50px;
+        line-height: 65px;
+    }
 }
+@media(max-width: 480px){
+   .emoji{
+        font-size: 40px;
+        line-height: 52px;
+    }
+}
+
 .hero__description{
     font-size: 30px;
     font-weight: 600;
