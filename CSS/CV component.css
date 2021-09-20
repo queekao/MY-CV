@@ -723,6 +723,12 @@
         padding-bottom: 750px;
     }
 }
+@media(max-width: 768px){
+    .quote{
+
+        padding-bottom: 790px;
+    }
+}
 @media(max-width: 766px){
     .quote{
 
