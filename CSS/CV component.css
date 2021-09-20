@@ -1052,13 +1052,13 @@
  }
 .portfolio-item{
     height: 100vh;
-    margin-bottom: -150px;
+    margin-bottom: -50px;
     
  }
   @media(max-width: 768px){
    .portfolio-item{
     height: 100vh;
-    margin-bottom: -150px;
+    margin-bottom: -200px;
     
   }
  }
@@ -1194,7 +1194,7 @@
  }
   .portfolio-item{
     height: 100vh;
-    margin-bottom: -150px;
+    margin-bottom: -50px;
  }
 }
  @media(max-width: 766px){
