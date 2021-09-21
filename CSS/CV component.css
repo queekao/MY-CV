@@ -452,6 +452,7 @@
      font-size: 16px;
      font-weight: 500;
      transition: all 0.3s;
+     letter-spacing: 0.03em;
 }
 .nav .popup-menu__item:hover{
       color: #e881a7;
@@ -638,6 +639,7 @@
     line-height: 120px;
     color: #fff;
     user-select: none;
+    letter-spacing: 0.05em;
 }
 @media(max-width: 766px){
     .hero__heading{
@@ -833,7 +835,7 @@
     font-family:'Poppins', 'Helvetica';, 'Noto Sans SC' 
     margin-top: 0;
     margin-bottom: 8px;
-
+    letter-spacing: 0.03em;
 }
 .skill-card__text{
     margin: 0;
@@ -953,7 +955,7 @@
     font-size: 30px;
     font-weight: 600;
     margin-top: 0;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
     color: #D6d6d6;
  }
  /*---------------*/
