@@ -725,8 +725,12 @@
 }
 @media(max-width: 768px){
     .quote{
-
-        padding-bottom: 950px;
+        padding-bottom: 650px;
+    }
+}
+@media(max-width: 767px){
+    .quote{
+        padding-bottom: 250px;
     }
 }
 @media(max-width: 766px){
