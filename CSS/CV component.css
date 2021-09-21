@@ -1219,27 +1219,31 @@
    @media(max-width: 766px){
     .portfolio-item__intro{
     font-size: 20px;
+    line-height: 26px;    
  }
   .portfolio-item__title{
      font-size: 40px;
+     line-height: 52px;
  }
  }
   @media(max-width: 400px){
     .portfolio-item__intro{
     font-size: 15px;
+    line-height: 22.5px;
  }
   .portfolio-item__title{
-     font-size: 30px;
+      font-size: 24px;
+     line-height: 31px;
  }
  }
  @media(max-width: 320px){
     .portfolio-item__intro{
     font-size: 15px;
-    line-height: 15px;
+    line-height: 22.5px;
  }
   .portfolio-item__title{
-     font-size: 30px;
-     line-height: 30px;
+     font-size: 24px;
+     line-height: 31px;
  }
  }
 
