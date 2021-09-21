@@ -745,13 +745,13 @@
 .quote__content{
     text-align: center;
     font-size: 18px;
-    line-height: 40px;
+    line-height: 27px;
     color: #484848;
 }
 @media(max-width: 400px){
     .quote__content{
         font-size: 12px;
-        line-height: 27px;
+        line-height: 18px;
     }
 }
 .quote__icon{
@@ -767,7 +767,7 @@
 }
 .quote__text{
     font-size: 18px;
-    line-height: 36px;
+    line-height: 24px;
     color: #484848;
     margin-bottom: 24px; 
 }
@@ -777,7 +777,7 @@
 .quote__name{
     text-align: center;
     font-size: 18px;
-    line-height: 40px;
+    line-height: 27px;
     color: #484848;
     
     
