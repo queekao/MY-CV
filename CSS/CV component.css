@@ -632,6 +632,7 @@
     
 }
 .hero__heading{
+    font-family: ;
     font-size: 100px;
     font-weight: 900;
     line-height: 120px;
@@ -751,6 +752,7 @@
     font-size: 18px;
     line-height: 27px;
     color: #484848;
+     hyphens: auto;
 }
 @media(max-width: 400px){
     .quote__content{
@@ -774,6 +776,7 @@
     line-height: 27px;
     color: #484848;
     margin-bottom: 24px; 
+    hyphens: auto;
 }
 .quote__text span{
     font-weight: 1000;
