@@ -1153,16 +1153,19 @@
     }
  }
 .portfolio-item__text{
-    padding-top: 15%;
+    padding-top: 25.5%;
+    padding-bottom: 25.5%;
 }
 @media(max-width: 992px){
     .portfolio-item__text{
-        padding-top: 15%;
+        padding-top: 25%;
+       padding-bottom: 25%;
     }
  }
 @media(max-width: 768px){
     .portfolio-item__text{
-        padding-top: 15%;
+        padding-top: 30.5%;
+       padding-bottom: 30.5%;
 
     }
  }
