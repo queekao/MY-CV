@@ -634,7 +634,7 @@
 .hero__heading{
     font-size: 100px;
     font-weight: 900;
-    line-height: 130px;
+    line-height: 120px;
     color: #fff;
     user-select: none;
 }
@@ -1223,31 +1223,27 @@
    @media(max-width: 766px){
     .portfolio-item__intro{
     font-size: 20px;
-    line-height: 26px;    
  }
   .portfolio-item__title{
      font-size: 40px;
-     line-height: 52px;
  }
  }
   @media(max-width: 400px){
     .portfolio-item__intro{
     font-size: 15px;
-    line-height: 22.5px;
  }
   .portfolio-item__title{
-      font-size: 24px;
-     line-height: 31px;
+     font-size: 30px;
  }
  }
  @media(max-width: 320px){
     .portfolio-item__intro{
     font-size: 15px;
-    line-height: 22.5px;
+    line-height: 15px;
  }
   .portfolio-item__title{
-     font-size: 24px;
-     line-height: 31px;
+     font-size: 30px;
+     line-height: 30px;
  }
  }
 
@@ -1404,7 +1400,9 @@
     margin: 0 auto;
     text-align: center;
     max-width: 600px;
+    max-height: 200px;
     color: white;
+    line-height: 24px;
 }
 .final-text span{
     font-size: 24px;
