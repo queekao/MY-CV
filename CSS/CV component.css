@@ -716,12 +716,12 @@
 /* Quote */
 .quote{
     padding-top: 160px;
-    padding-bottom: 700px;
+    padding-bottom: 600px;
 }
 @media(max-width: 992px){
     .quote{
 
-        padding-bottom: 750px;
+        padding-bottom: 650px;
     }
 }
 @media(max-width: 768px){
