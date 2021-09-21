@@ -11,42 +11,42 @@ $(window).ready(function(){
 		var animation = bodymovin.loadAnimation({
  		container: document.getElementById('skill1'),
  		renderer:'svg',
- 		loop:'3',
+ 		loop:'4',
  		autoplay:'true',
  		path:'https://assets4.lottiefiles.com/private_files/lf30_coea7bte.json'
 		})
 		var animation = bodymovin.loadAnimation({
  		container: document.getElementById('skill2'),
  		renderer:'svg',
- 		loop:'3',
+ 		loop:'4',
  		autoplay:'true',
  		path:'https://assets10.lottiefiles.com/packages/lf20_g4m1auuk.json'
 		})
 		var animation = bodymovin.loadAnimation({
  		container: document.getElementById('skill3'),
  		renderer:'svg',
- 		loop:'3',
+ 		loop:'4',
  		autoplay:'true',
  		path:'https://assets10.lottiefiles.com/private_files/lf30_31yi2jtl.json'
 		})
 		var animation = bodymovin.loadAnimation({
  		container: document.getElementById('skill4'),
  		renderer:'svg',
- 		loop:'3',
+ 		loop:'4',
  		autoplay:'true',
  		path:'https://assets7.lottiefiles.com/private_files/lf30_qrnxyorl.json'
 		})
 		var animation = bodymovin.loadAnimation({
  		container: document.getElementById('skill5'),
  		renderer:'svg',
- 		loop:'3',
+ 		loop:'4',
  		autoplay:'true',
  		path:'https://assets3.lottiefiles.com/private_files/lf30_ztkzfr9e.json'
 		})
 		var animation = bodymovin.loadAnimation({
  		container: document.getElementById('skill6'),
  		renderer:'svg',
- 		loop:'3',
+ 		loop:'4',
  		autoplay:'true',
  		path:'https://assets7.lottiefiles.com/private_files/lf30_zkxz853t.json'
 		})
