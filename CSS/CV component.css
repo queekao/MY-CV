@@ -819,14 +819,16 @@
 }
 .skill-card{
    /* border: 1px solid #000;*/
-    padding-left: 32px;
+    padding-left: px;
     margin-bottom: 32px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+   
 
 }
 .skill-card__inner{
     background-color: #fefefe;
     border-radius: 4px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+     box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.4);
     padding: 36px;
     padding-left: 48px;
 }
@@ -845,7 +847,7 @@
     position: absolute;
     top: 50%;
     left: 0;
-    transform: translate(-30%, -50%);
+    transform: translate(-50%, -50%);
     width: 150px;
     height: 150px;
     opacity: 0.85;
