@@ -220,7 +220,7 @@
     box-si, 'Noto Sans SC'zing: border-box;
     background: linear-gradient(90deg, #03a9f4, #f441a5, #e881a7, #03a9f4);
     background-size: 400%;
-    border-radius: 6px;
+    border-radius: 8px;
 }
 @media(max-width: 400px){
     .text-btn.text-btn--primary{
@@ -718,22 +718,22 @@
 /* Quote */
 .quote{
     padding-top: 160px;
-    padding-bottom: 600px;
+    padding-bottom: 900px;
 }
 @media(max-width: 992px){
     .quote{
 
-        padding-bottom: 650px;
+        padding-bottom: 1000px;
     }
 }
 @media(max-width: 768px){
     .quote{
-        padding-bottom: 650px;
+        padding-bottom: 1000px;
     }
 }
 @media(max-width: 767px){
     .quote{
-        padding-bottom: 250px;
+        padding-bottom: 100px;
     }
 }
 @media(max-width: 766px){
@@ -819,11 +819,10 @@
 }
 .skill-card{
    /* border: 1px solid #000;*/
-    padding-left: px;
+    margin-left: 32px;
     margin-bottom: 32px;
+    margin-right: 32px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-   
-
 }
 .skill-card__inner{
     background-color: #fefefe;
@@ -898,13 +897,27 @@
  }
  .myphoto{
     margin-top: 60px;
+    margin-bottom: 60px;
     height: 300px;
     width: 100%;
+    align-items: center;
     background-color: white;
     opacity: 0.9;
 /*    border: 1px solid #fff;*/
-   box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
  }
+ .intro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ }
+ @media(max-width: 766px){
+   .intro{
+    width: 100%;
+    height: 100%;
+ }
+ }
+
  .myphoto h3{
     position: absolute;
     top: 50%;
@@ -1087,6 +1100,11 @@
 .portfolio-item{
     height: 90vh;
     margin-bottom: -50px;
+ }
+ .portfolio-shadow{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     
  }
    @media(max-width: 1200px){
@@ -1124,7 +1142,7 @@
    .portfolio-item{
     height: 120vh;
     margin-bottom: auto;
-    
+    box-shadow: ;
   }
  }
 
@@ -1134,7 +1152,7 @@
     border-radius: 4px;
     align-items: center;
     text-align: inherit;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0.1px 1px 1px rgba(0, 0, 0, 0.2);
  }
  @media(max-width: 768px){
     .portfolio-container{
@@ -1411,9 +1429,12 @@
     color: white;
     line-height: 24px;
 }
-.final-text span{
+.final-text a{
     font-size: 24px;
     color: red;
+}
+.final-text a:hover{
+    color: #8B0000;
 }
 /*--------*/
 /* Parallax graphic */
@@ -1443,7 +1464,21 @@
 .graphic_010{bottom: -20%;left: 10%;width: 7%; height: 7%;}
 .graphic_011{bottom: 0%;right: 10%;width: 7%; height: 7%;}
 .graphic_012{bottom: 20%;right: 55%;}
-.graphic_013{bottom: 40%;right: 5%; width: 30%;height: 30%;}
+.graphic_013{bottom: 40%;right: 5%; width: 30%;height: 30%; animation: float 3s infinite;}
+@media(max-width: 766px){
+    .graphic_013{bottom: 40%;right: 5%; width: 30%;height: 30%;animation: none;}
+}
+@keyframes float{
+    0%{
+        margin-top: 0px;
+    }
+    50%{
+        margin-top: 10px;
+    }
+    100%{
+        margin-top: 0px;
+    }
+}
 
 /*--------*/
 /*--------*/
