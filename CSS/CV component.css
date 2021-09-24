@@ -95,6 +95,7 @@
     user-select: none;
     -webkit-user-drag: none;
     transition: all 0.5s;
+    box-shadow: 1.5px 2px 0px rgba(139, 0, 0, 1);
 }
 .btn--primary,
 .btn--secondary{
@@ -616,6 +617,7 @@
 .emoji{
     font-size: 60px;
     line-height: 78px;
+    text-shadow: 0px 5px 30px rgba(0, 0, 0, 0.3);
 }
 @media(max-width: 480px){
     .hero{
@@ -640,6 +642,7 @@
     color: #fff;
     user-select: none;
     letter-spacing: 0.05em;
+    text-shadow: 2px 2px #8B0000;
 }
 @media(max-width: 766px){
     .hero__heading{
@@ -665,6 +668,7 @@
     margin-bottom: 36px;
     color: #D6d6d6;
     animation: moveright 1s 1s both cubic-bezier(0,1.18,1,.81);
+    text-shadow: 1px 1px #8B0000;
 }
 @keyframes moveright{
     0%{
