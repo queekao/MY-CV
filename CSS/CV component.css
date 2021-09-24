@@ -220,7 +220,7 @@
     box-si, 'Noto Sans SC'zing: border-box;
     background: linear-gradient(90deg, #03a9f4, #f441a5, #e881a7, #03a9f4);
     background-size: 400%;
-    border-radius: 8px;
+    border-radius: 6px;
 }
 @media(max-width: 400px){
     .text-btn.text-btn--primary{
