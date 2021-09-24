@@ -32,21 +32,21 @@ $(window).ready(function(){
 		var animation = bodymovin.loadAnimation({
  		container: document.getElementById('skill4'),
  		renderer:'svg',
- 		loop:'4',
+ 		loop:'5',
  		autoplay:'true',
  		path:'https://assets7.lottiefiles.com/private_files/lf30_qrnxyorl.json'
 		})
 		var animation = bodymovin.loadAnimation({
  		container: document.getElementById('skill5'),
  		renderer:'svg',
- 		loop:'4',
+ 		loop:'5',
  		autoplay:'true',
  		path:'https://assets3.lottiefiles.com/private_files/lf30_ztkzfr9e.json'
 		})
 		var animation = bodymovin.loadAnimation({
  		container: document.getElementById('skill6'),
  		renderer:'svg',
- 		loop:'4',
+ 		loop:'5',
  		autoplay:'true',
  		path:'https://assets7.lottiefiles.com/private_files/lf30_zkxz853t.json'
 		})
