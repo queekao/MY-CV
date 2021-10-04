@@ -392,9 +392,11 @@
 }
 .header--colored .menu-toggle span{
     background-color: #e881a7;
+
 }
 .header--colored .navbar__social-bar .icon-btn .icon{
     color: #e881a7;
+    text-shadow: 0px 0px #8b0000;
 }
 .header--colored .navbar__social-bar .text-icon{
     color: #e881a7;
@@ -402,6 +404,7 @@
 .header--colored .navbar__nav .popup-menu__catalog .popup-menu__item{
     color: #e881a7;
     transition: all 0.3s;
+    text-shadow: 0px 0px #8b0000;
 }
 .header--colored .navbar__nav .popup-menu__catalog .popup-menu__item:hover{
     color:#8B0000 ;
