@@ -181,12 +181,14 @@
     line-height: 32px;
     font-size: 28px;
     color: #e881a7;
+    text-shadow: 1.5px 1.5px #8b0000;
 }
 .icon-btn .icon{
     display: block;
     text-align: center;
     transition: 0.3s all;
     color: #fefefe;
+
     
 }
 .icon-btn .icon:hover{
@@ -454,6 +456,7 @@
      font-weight: 500;
      transition: all 0.3s;
      letter-spacing: 0.03em;
+     text-shadow: 1.5px 1.5px #8b0000;
 }
 .nav .popup-menu__item:hover{
       color: #e881a7;
