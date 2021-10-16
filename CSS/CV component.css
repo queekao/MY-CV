@@ -382,8 +382,11 @@
         height: 40px;
     }
     .mylogo{
-        width: 75px;
-        height: 75px;
+        width: 50px;
+        height: 50px;
+    }
+    .header{
+        height: 60px;
     }
 }
 .header--colored{
