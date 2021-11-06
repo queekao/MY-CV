@@ -798,6 +798,7 @@
     color: #484848;
     margin-bottom: 24px; 
     hyphens: auto;
+    text-align: center;
 }
 .quote__text span{
     font-weight: 1000;
